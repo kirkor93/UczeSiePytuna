@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ef87761c-e091-4cfc-ae0f-0967cb62c653</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>UczeSiePytuna.py</StartupFile>
+    <StartupFile>test.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="UczeSiePytuna.py" />
+    <Compile Include="test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tutorial\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tutorial\ucze_sie_pytuna.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="tutorial\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
