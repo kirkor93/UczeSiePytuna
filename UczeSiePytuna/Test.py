@@ -1,3 +1,8 @@
 from tutorial.ucze_sie_pytuna import *
 
-print(Math.pow(7))
+try:
+    print(Math.min([]))
+
+except IndexError:
+    pass
+print("asd")
